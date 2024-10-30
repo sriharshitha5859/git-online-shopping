@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compitable" content="IE=edge">
+        <meta name ="viewport" content="width=device-width, inital-scale+1.0">
+        <title>Ecommerce Website</title>
+        <link rel="stylesheet" href="style.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+    </head>
+    <body>
+
+        <section id="header">
+            <a href="#"><img src= "C:\Users\Dell\Desktop\Ecommerce Website\images\logo.jpg"class="logo"> </a>
+            
+            <div>
+                <ul id="down">
+                  <li><a  href="index.html">Home</i></a></li>
+                  <li><a href="shop.html">Shop</i></a></li>
+                  <li id="lg-bag"><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                  <a href="#" id="close"><i class="fa-solid fa-x"></i></a>
+                </ul>
+            </div>
+            <div id="mobile">
+                <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                <i id ="bar" class="fa-solid fa-bars"></i>
+            </div>
+        </section>
+
+        <section id="cart" class="section-p1">
+              <table width="100%">
+                <thead>
+                <tr>
+                    <td>Remove</td>
+                    <td>Image</td>
+                    <td>Product</td>
+                    <td>Price</td>
+                    <td>Quantity</td>
+                    <td>Subtotal</td>
+                </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><a class="close" href="#"><i class="fa-regular fa-circle-xmark"></i></a></td>
+                        <td><img src="images/i1.jpeg" alt=""></td>
+                        <td>Monsoon Clara Palm Print Tea Dress</td>
+                        <td>₹1000</td>
+                        <td><input type="number" value="1"></td>
+                        <td>₹1000</td>
+                    </tr>
+                    <tr>
+                        <td><a class="close" href="#"><i class="fa-regular fa-circle-xmark"></i></a></span></td>
+                        <td><img src="images/i6.jpg" alt=""></td>
+                        <td>Blue Stripes white Shirt</td>
+                        <td>₹1500</td>
+                        <td><input type="number" value="1"></td>
+                        <td >₹1500</td>
+                    </tr>
+                    <tr>
+                        <td><a class="close" href="#"><i class="fa-regular fa-circle-xmark"></i></a></td>
+                        <td><img src="images/i3.jpg" alt=""></td>
+                        <td>Printed Midi Shirt Dress</td>
+                        <td>₹1200</td>
+                        <td><input type="number" value="1"></td>
+                        <td>₹1200</td>
+                    </tr>
+                </tbody>
+              </table>
+        </section>
+
+        <section id="cart-add" class="section-p1">
+            <div id="coupon">
+                <h3>Apply Coupon</h3>
+                <div>
+                    <input type="text" placeholder="Enter Your Coupon">
+                    <button>Apply</button>
+                </div>
+            </div>
+            <div id="subtotal">
+                <h3>Cart Total</h3>
+                <table>
+                    <tr>
+                        <td>Cart Subtotal</td>
+                        <td>₹3700</td>
+                    </tr>
+                    <tr>
+                        <td>Shipping</td>
+                        <td>Free</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Total</strong></td>
+                        <td><strong>₹3700</strong></td>
+                    </tr>
+                </table>
+                <button onclick="window.location.href='checkoutpage.html';">Proceed to Checkout</button>
+            </div>
+        </section>
+
+
+
+        <footer class="section-p1">
+            <div class="colo">
+                <img class="logo" src="images/logo.jpg" alt="">
+                <h4>Contact</h4>
+                <p><strong>Address:</strong> VIT-AP UNIVERSITY</p>
+                <p><strong>Phone:</strong>9087654321</p>
+                <p><strong>Time</strong>10:00am-18:00pm, Mon-Sat</p>
+                <div class="follow">
+                    <h4>Follow us</h4>
+                    <div class="icon">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-pinterest"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col"> 
+                <h4>About</h4>
+                <a href="#">About us</a>
+                <a href="#">Delivery Information</a>
+                <a href="#">Privacy policy</a>
+                <a href="#">Terms & Conditions</a>
+                <a href="#">Contact us</a>   
+            </div>
+
+            <div class="col"> 
+                <h4>My Account</h4>
+                <a href="#">Sign In</a>
+                <a href="#">View Cart</a>
+                <a href="#">My Wishlist</a>
+                <a href="#">Track My Order</a>
+                <a href="#">Help</a>  
+            </div>
+            <div>
+                <p>Secured Payment Gateways</p>
+                <img src="images/pay.png" alt="">
+            </div>
+
+            <div class="copyright">
+                <p> &#169; 2023, Gnanitha - Ecommerce Website </p>
+            </div>
+        </footer>
+        <script src="script.js"></script>
+        <script src="cart.js"></script>
+    </body>
+</html>
